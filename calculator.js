@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 app.get('/',(req, res)=> {
 
-res.send("kuch bhi");
+res.send("kuch bhi"); // for sending
 })
 
 app.post('/calculate', (req, res)=>{
